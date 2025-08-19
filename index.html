@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock de Celulares</title>
+    <link rel="stylesheet" href="css_general.css">
+    <link rel="stylesheet" href="stock.css">
+    <link rel="stylesheet" href="historial.css">
+</head>
+<body>
+    
+    <header class="menu-superior">
+    <div class="menu-buttons">
+        <button id="btn-stock" class="menu-btn active">Stock</button>
+        <button id="btn-historial" class="menu-btn">Historial</button>
+    </div>
+    <div class="menu-search">
+        <input type="text" id="top-search" placeholder="Buscar...">
+        <i class="fa fa-search"></i>
+    </div>
+</header>
+
+
+   
+    <section id="stock-section" class="section">
+        <div class="cards-container">
+           
+            <div class="card">
+                <img src="" alt="Celular A">
+                <h3>Celular A</h3>
+                <button class="vender-btn">Vender</button>
+            </div>
+            <div class="card">
+                <img src="" alt="Celular B">
+                <h3>Celular B</h3>
+                <button class="vender-btn">Vender</button>
+            </div>
+            <div class="card">
+                <img src="" alt="Celular C">
+                <h3>Celular C</h3>
+                <button class="vender-btn">Vender</button>
+            </div>
+            <div class="card">
+                <img src="" alt="Celular C">
+                <h3>Celular D</h3>
+                <button class="vender-btn">Vender</button>
+            </div>
+            <div class="card">
+                <img src="" alt="Celular C">
+                <h3>Celular E</h3>
+                <button class="vender-btn">Vender</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Historial -->
+    <section id="historial-section" class="section" style="display:none;">
+        <table class="historial-table">
+            <thead>
+                <tr>
+                    <th>Dispositivo</th>
+                    <th>IMEI</th>
+                    <th>Cliente</th>
+                    <th>Precio Venta</th>
+                    <th>Costo</th>
+                    <th>Ganancia</th>
+                    <th>Fecha</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Celular A</td>
+                    <td>1234567890</td>
+                    <td>Juan Pérez</td>
+                    <td>$200</td>
+                    <td>$150</td>
+                    <td>$50</td>
+                    <td>19/08/2025</td>
+                </tr>
+            </tbody>
+        </table> 
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
